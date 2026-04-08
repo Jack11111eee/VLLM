@@ -16,3 +16,4 @@ dist/
 .pytest_cache/
 .ipynb_checkpoints/
 evaluation.log
+hf_models/
