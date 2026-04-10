@@ -17,3 +17,42 @@ dist/
 .ipynb_checkpoints/
 evaluation.log
 hf_models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+*.out
+
+# Caches
+.cache/
+**/.cache/
+.huggingface/
+
+# Models / checkpoints
+hf_models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Large datasets / raw data
+open-eqa/data/versioned_data/
+open-eqa/data/raw/
+open-eqa/data/frames/
+open-eqa/downloads/
+
+# Experiment outputs
+SpatialThinker/evaluation/outputs/
+SpatialThinker/evaluation.log
+
+# Envs
+.venv/
+venv/
+env/
+.env
