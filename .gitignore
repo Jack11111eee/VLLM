@@ -46,6 +46,12 @@ open-eqa/data/versioned_data/
 open-eqa/data/raw/
 open-eqa/data/frames/
 open-eqa/downloads/
+ScanNet/raw/
+ScanNet/exported/
+ScanNet/processed/
+ScanNet/splits/
+ScanNet/scripts/download-scannet.py
+ScanNet/tools/ScanNet/
 
 # Experiment outputs
 SpatialThinker/evaluation/outputs/
