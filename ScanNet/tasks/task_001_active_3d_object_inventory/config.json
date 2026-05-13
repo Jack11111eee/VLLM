@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "task_name": "active_3d_object_inventory",
+  "manifest": "ScanNet/processed/pilot_manifest.json",
+  "scene_list": "ScanNet/splits/pilot_3.txt",
+  "scannet_root": "ScanNet",
+  "output_dir": "ScanNet/tasks/task_001_active_3d_object_inventory/outputs",
+  "min_visible_pixels": 100,
+  "max_steps": 25,
+  "start_index": 0,
+  "seed": 42,
+  "exclude_categories": [
+    "wall",
+    "floor",
+    "ceiling"
+  ]
+}
